@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretora distribui saldo para clientes selecionados | InfoMoney</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .article-text {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #333;
+        }
+        .quote-box {
+            border-left: 4px solid #cc0000;
+            background: #f8f8f8;
+        }
+        .infomoney-red {
+            color: #cc0000;
+        }
+        .bg-infomoney {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-3">
+            <div class="text-3xl font-bold infomoney-red">InfoMoney</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-6">
+        <div class="bg-white p-6 md:p-8 rounded-lg shadow-md">
+            <!-- Article Header -->
+            <div class="mb-8">
+                <div class="text-sm text-gray-500 mb-2">
+                    MERCADO FINANCEIRO • 17 de Janeiro de 2025 • 09:45
+                </div>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Corretora surpreende mercado ao distribuir R$ 50 em saldo para clientes selecionados
+                </h1>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Por Ricardo Santos</span>
+                    <span class="mx-2">•</span>
+                    <span>5 min de leitura</span>
+                </div>
+            </div>
+
+            <!-- Featured Quote -->
+            <div class="quote-box p-6 my-8">
+                <p class="text-xl text-gray-700">
+                    "Em um movimento inédito no mercado, a Blend Broker está distribuindo saldo operacional para contas selecionadas de sua base. A ação reflete a solidez e o momento de expansão da empresa."
+                </p>
+            </div>
+
+            <!-- Article Content -->
+            <div class="article-text space-y-6">
+                <p>
+                    O mercado financeiro foi surpreendido nesta quinta-feira com o anúncio da Blend Broker, que está realizando uma distribuição de saldo operacional para clientes selecionados de sua base. A corretora, que vem se destacando no setor, confirmou que algumas contas receberão R$ 50 em saldo para operações na plataforma.
+                </p>
+
+                <p>
+                    Esta iniciativa chama a atenção em um momento em que o mercado financeiro busca inovações para atrair e reter clientes. A Blend Broker, conhecida por suas práticas diferenciadas, demonstra mais uma vez seu compromisso com a satisfação dos usuários.
+                </p>
+
+                <div class="bg-gray-50 p-6 rounded-lg my-8">
+                    <h3 class="font-bold text-xl mb-4 infomoney-red">PONTOS-CHAVE:</h3>
+                    <ul class="list-disc ml-6 space-y-2">
+                        <li>Distribuição exclusiva para contas selecionadas</li>
+                        <li>Saldo de R$ 50 disponível para operações</li>
+                        <li>Processo de ativação simplificado</li>
+                        <li>Ação reflete momento de expansão da corretora</li>
+                    </ul>
+                </div>
+
+                <p>
+                    De acordo com analistas do setor, esta ação pode indicar uma nova tendência no mercado de corretoras. "É uma abordagem interessante que demonstra a solidez financeira da empresa e sua capacidade de inovar", afirma Paulo Mendes, especialista em mercado financeiro.
+                </p>
+
+                <h2 class="text-2xl font-bold my-6">Como verificar a elegibilidade</h2>
+                
+                <p>
+                    A Blend Broker disponibilizou uma ferramenta online onde os clientes podem verificar se foram contemplados com o saldo adicional. O processo é simples e leva apenas alguns segundos.
+                </p>
+
+                <!-- CTA Box -->
+                <div class="bg-gray-900 text-white p-8 rounded-lg my-8 text-center">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Verifique agora se você foi selecionado
+                    </h3>
+                    <p class="mb-6">
+                        Clientes selecionados receberão R$ 50 em saldo para operar na plataforma
+                    </p>
+                    <a href="https://news.flowhosted.com/bb2-bonus/" 
+                       class="bg-infomoney text-white font-bold py-4 px-8 rounded-lg inline-block hover:bg-red-700 transition duration-300">
+                        VERIFICAR ELEGIBILIDADE
+                    </a>
+                </div>
+
+                <h2 class="text-2xl font-bold my-6">Perspectivas do Mercado</h2>
+
+                <p>
+                    Especialistas acreditam que ações como esta da Blend Broker podem estabelecer novos padrões no mercado financeiro. "É uma demonstração clara de como as corretoras estão buscando formas inovadoras de se relacionar com seus clientes", explica Maria Silva, analista de mercado.
+                </p>
+
+                <div class="quote-box p-6 my-8">
+                    <p class="text-xl text-gray-700">
+                        "A distribuição de saldo operacional é uma estratégia que beneficia tanto a corretora quanto os clientes, fortalecendo o relacionamento e estimulando mais operações na plataforma"
+                    </p>
+                    <p class="text-sm text-gray-500 mt-2">
+                        - Maria Silva, Analista de Mercado
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 mt-12">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center">
+                <div class="text-2xl font-bold mb-4">InfoMoney</div>
+                <p class="text-gray-400">
+                    As principais notícias do mercado financeiro
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
